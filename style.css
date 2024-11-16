@@ -1,0 +1,206 @@
+* {    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.hero_img {
+    text-align: center;
+}
+
+.ota_search {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 130px;
+}
+.red{
+color: red;
+}
+.yellow{
+color: yellow;
+}
+.green{
+color: green;
+}
+.ota_search input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.ota_search button {
+    background-color: #D9534F;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+}
+
+.bola_card {
+    width: 230px;
+    height: 330px;
+    background-color: #333333;
+    box-shadow: 0px 0px 15px 0px #00000080;
+    border-radius: 10px;
+}
+
+.movie {
+    padding-left: 9px;
+    padding-top: 10px;
+}
+
+.bola_card h4 {
+    font-size: 18.7px;
+    font-weight: 700;
+    line-height: 21.5px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ota_p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-top: 10px;
+}
+
+.bola_card p {
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    padding-top: 10px;
+}
+
+.bola_card button {
+    font-family: Arial;
+    font-size: 13.3px;
+    font-weight: 400;
+    line-height: 15.29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    background-color: #5CB85C;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.select {
+    width: 100px;
+    height: 29px;
+    border-radius: 7px;
+}
+#ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+body{
+    background-color: #444444;
+    ;
+}
+.md{
+    height: 50px;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.boxlar{
+    background-color: black;
+    padding: 20px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.karobka{
+    width: 270px;
+    height: 400px;
+    color: white;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 30px solid;
+    text-align: center;
+}
+.yozuvlar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 800px;
+}
+#qidiruv{
+    height: 50px;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+#btn{
+    padding: 11px 45px;
+    background-color: red;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+}
+#btn2{
+    padding: 10px 25px;
+    background-color: green;
+    border-radius: 8px;
+    font-size: 10px;
+    color: white;
+}
+.rasm{
+    background-color: #2A2A2A;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qidiruvsistemasi{
+    background-color: #2A2A2A;
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1220px;
+}
